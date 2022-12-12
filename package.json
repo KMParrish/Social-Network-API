@@ -1,0 +1,26 @@
+{
+  "name": "social-network-api",
+  "version": "1.0.0",
+  "description": "Social networking api that people can use to communicate with each other",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KMParrish/Social-Network-API.git"
+  },
+  "author": "Kyle Parrish",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KMParrish/Social-Network-API/issues"
+  },
+  "homepage": "https://github.com/KMParrish/Social-Network-API#readme",
+  "dependencies": {
+    "api-routes": "^0.2.1",
+    "express": "^4.18.2",
+    "moment": "^2.29.4",
+    "mongoose": "^6.8.0"
+  }
+}
